@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'Game of Thrones';
+  src: url('Game of Thrones.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GameofThrones';
+  src: url('GameofThrones.ttf') format('truetype'),
+       url('GameofThrones.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+

@@ -1,0 +1,112 @@
+@font-face {
+  font-family: "Game of Thrones";
+  src: url("Game of Thrones.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GameofThrones";
+  src: url("GameofThrones.ttf") format("truetype"),
+    url("GameofThrones.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+
+html {
+  font-size: 62.5%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 600px;
+  max-height: 600px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 3rem;
+  height: 15rem;
+  font-family: "Game of Thrones";
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+form {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  height: 6rem;
+  width: 20%;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  height: 40rem;
+}
+
+.infoContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  height: 100%;
+  border: 1px solid black;
+}
+
+.imgContainer {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+  border: 1px solid black;
+}
+
+.eachInfoContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+}
+
+h2 {
+  font-family: "GameofThrones";
+  font-size: 1.5rem;
+  width: 10%;
+}
+
+h3 {
+  font-family: "Game of Thrones";
+  font-size: 2.3rem;
+  letter-spacing: 0.5rem;
+  width: 80%;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
